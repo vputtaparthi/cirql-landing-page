@@ -2,7 +2,7 @@ import { controlYourData } from "../constants";
 
 const ControlYourData = () => {
   return (
-    <section id="control-data" className=" w-full py-16 max-sm:py-10">
+    <section id="control-data" className=" w-full py-16">
       <h2 className="h2-bold text-center">
         Take Back Control of Your Data — <br /> Before It’s Too Late
       </h2>

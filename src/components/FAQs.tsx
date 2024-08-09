@@ -8,7 +8,7 @@ import { faqs } from "../constants";
 
 const FAQs = () => {
   return (
-    <section id="faqs" className=" w-full py-16 max-sm:py-10">
+    <section id="faqs" className=" w-full py-16 max-sm:py-14">
       <h2 className="h2-bold text-center mt-8">Frequently Asked Questions</h2>
 
       <Accordion

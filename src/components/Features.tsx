@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const Features = () => {
   return (
-    <section id="features" className=" w-full py-16 max-sm:py-10">
+    <section id="features" className=" w-full py-16">
       <h2 className="h2-bold text-center">Discover Our Key Benefits</h2>
 
       {/* Feature 1 */}

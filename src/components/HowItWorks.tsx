@@ -2,7 +2,7 @@ import { Lightbulb } from "lucide-react";
 
 const HowItWorks = () => {
   return (
-    <section id="solution" className=" w-full py-16 max-sm:py-10">
+    <section id="solution" className=" w-full py-16 max-sm:py-12">
       <div className="w-full  flex items-center justify-center flex-col">
         <button className="flex items-center justify-center gap-2 rounded-full border-2 border-[#eeeeee] shadown-md h-9 px-3 ">
           <Lightbulb className="text-body" />

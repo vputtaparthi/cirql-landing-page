@@ -19,7 +19,7 @@ const Hero = () => {
         </a>
       </div>
 
-      <div className="relative">
+      <div className="relative min-h-[250px] ">
         <picture className="w-full h-full z-10">
           {/* Source for medium devices */}
           <source

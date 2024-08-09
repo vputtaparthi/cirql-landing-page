@@ -2,7 +2,7 @@ import { privacyData } from "../constants";
 
 const Privacy = () => {
   return (
-    <section id="privacy" className=" w-full py-16 max-sm:py-10">
+    <section id="privacy" className=" w-full py-16">
       <h2 className="h2-bold text-center">Your Privacy, Our Priority</h2>
 
       {/* Control Your Data */}

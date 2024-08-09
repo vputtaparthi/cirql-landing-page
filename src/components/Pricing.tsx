@@ -9,7 +9,7 @@ const Pricing = () => {
   const [Pricing, setPricing] = useState("monthly");
 
   return (
-    <section id="pricing" className=" w-full py-16 max-sm:py-10">
+    <section id="pricing" className=" w-full py-16">
       <h2 className="h2-bold text-center">Simple Pricing Structure</h2>
 
       <Tabs
