@@ -3,7 +3,7 @@ import { theProblems } from "../constants";
 
 const Problem = () => {
   return (
-    <section id="problem" className=" w-full py-24 max-sm:py-20">
+    <section id="problem" className=" w-full py-24 max-sm:pt-24 max-sm:pb-20">
       <div className="w-full  flex items-center justify-center flex-col gap-8">
         <button className="flex items-center justify-center gap-2 rounded-full bg-stroke-red/5 shadow-sm border border-accent-red shadown-md h-9 px-3 ">
           <CircleX className="text-accent-red" />
