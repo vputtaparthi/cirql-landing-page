@@ -211,7 +211,7 @@ const Features = () => {
           </h3>
           <div className="mt-6 justify-start flex items-center gap-3 ">
             <div className="bg-stroke-purple/10 p-2 border border-stroke-purple/35 shadow-sm flex items-center justify-center w-fit rounded-full">
-              <img src="/public/icons/bulb.svg" alt="bulb" />
+              <img src="/icons/bulb.svg" alt="bulb" />
             </div>
             <h4 className="text-medium-bold text-black">What It Does:</h4>
           </div>
@@ -280,7 +280,7 @@ const Features = () => {
           </h3>
           <div className="mt-6 justify-start flex items-center gap-3 ">
             <div className="bg-stroke-purple/10 p-2 border border-stroke-purple/35 shadow-sm flex items-center justify-center w-fit rounded-full">
-              <img src="/public/icons/bulb.svg" alt="bulb" />
+              <img src="/icons/bulb.svg" alt="bulb" />
             </div>
             <h4 className="text-medium-bold text-black">What It Does:</h4>
           </div>
