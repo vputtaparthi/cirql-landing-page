@@ -71,7 +71,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-roboto;
+    @apply bg-background text-body font-roboto;
   }
 
   .btn-gradient {
@@ -86,9 +86,9 @@
     overflow: hidden;
     transition: color 200ms;
   }
-  
+
   .btn-gradient::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -99,11 +99,11 @@
     opacity: 0;
     z-index: 0;
   }
-  
+
   .btn-gradient:hover::before {
     opacity: 1;
   }
-  
+
   .btn-gradient span {
     position: relative;
     z-index: 1;
@@ -121,7 +121,7 @@
     @apply font-bold text-[45px] leading-[130%] max-md:text-[36px] text-primary;
   }
   .h3-bold {
-    @apply font-bold text-[40px] leading-[130%] text-primary max-lg:text-[30px] ;
+    @apply font-bold text-[40px] leading-[130%] text-primary max-lg:text-[30px];
   }
   .h4-bold {
     @apply font-bold text-[22px] leading-[130%] text-primary;
@@ -133,6 +133,10 @@
   .text-medium {
     @apply text-[18px] leading-[150%] max-md:text-[16px];
   }
+  .text-medium-bold {
+    @apply font-bold text-[18px] leading-[150%] max-md:text-[16px];
+  }
+
   .text-base {
     @apply text-[16px] leading-[150%];
   }
@@ -148,9 +152,27 @@
     @apply text-[14px] leading-[150%];
   }
 
+  .custom-list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .custom-list li {
+    position: relative;
+    padding-left: 1.2em;
+  }
+
+  .custom-list li::before {
+    content: "•"; /* Custom bullet point */
+    color: #862fe7; /* Change bullet color here */
+    font-size: 28px; /* Increase bullet size */
+    position: absolute;
+    left: 0;
+  }
 }
-  
-  /* .grid-container {
+
+/* .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 380px); 
     justify-content: center; 
@@ -172,4 +194,3 @@
       gap: 48px;
     }
   } */
-

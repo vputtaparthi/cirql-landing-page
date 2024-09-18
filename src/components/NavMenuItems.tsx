@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { headerLinks } from "../constants";
 
 type Props = {
@@ -14,14 +15,25 @@ const NavMenuItems = ({ isFooterMenu = false }: Props) => {
     >
       {headerLinks.map((link) => (
         <li key={link.href}>
-          <a
-            href={`#${link.href}`}
-            className={`text-lg max-sm:${
-              isFooterMenu ? "font-medium" : ""
-            } font-semibold hover:text-accent transition ease-in-out`}
-          >
-            {link.name}
-          </a>
+          {link.href === "features" ? (
+            <Link
+              to={link.href}
+              className={`text-lg max-sm:${
+                isFooterMenu ? "font-medium" : ""
+              } font-semibold hover:text-accent transition ease-in-out`}
+            >
+              {link.name}
+            </Link>
+          ) : (
+            <a
+              href={`#${link.href}`}
+              className={`text-lg max-sm:${
+                isFooterMenu ? "font-medium" : ""
+              } font-semibold hover:text-accent transition ease-in-out`}
+            >
+              {link.name}
+            </a>
+          )}
         </li>
       ))}
     </ul>

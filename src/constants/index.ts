@@ -81,8 +81,7 @@ export const controlYourData = [
   },
   {
     title: "Opt-Out with Cirql",
-    description:
-      `Cirql offers a one-time payment service to automatically send "opt-out" requests on your behalf to top B2B data brokers. This significantly reduces your exposure, cutting down on cold calls and emails by up to 90%.`,
+    description: `Cirql offers a one-time payment service to automatically send "opt-out" requests on your behalf to top B2B data brokers. This significantly reduces your exposure, cutting down on cold calls and emails by up to 90%.`,
     icon: "/icons/request.svg",
   },
 ];
@@ -102,31 +101,35 @@ export const privacyData = [
   },
   {
     title: "Take Charge of Your <br /> Inbox",
-    description:
-      `Maintain complete control over who accesses your emails. All actions are monitored and recorded in an audit log, giving you peace of mind.`,
+    description: `Maintain complete control over who accesses your emails. All actions are monitored and recorded in an audit log, giving you peace of mind.`,
     icon: "/icons/eye-scan.svg",
   },
 ];
 
 export const faqs = [
   {
-    question : "How to install the plugin?",
-    answer : "Installing Cirql is quick and easy. Simply download the plugin, follow the step-by-step instructions, and start managing your inbox in minutes."
+    question: "How to install the plugin?",
+    answer:
+      "Installing Cirql is quick and easy. Simply download the plugin, follow the step-by-step instructions, and start managing your inbox in minutes.",
   },
   {
-    question : "Is my data kept safe?",
-    answer : "Absolutely. Your data is encrypted and secured with the highest industry standards, ensuring complete confidentiality and protection."
+    question: "Is my data kept safe?",
+    answer:
+      "Absolutely. Your data is encrypted and secured with the highest industry standards, ensuring complete confidentiality and protection.",
   },
   {
-    question : "How does automatic letter sorting work?",
-    answer : "Cirql intelligently categorizes your emails based on your preferences or our smart suggestions, keeping your inbox organized effortlessly."
+    question: "How does automatic letter sorting work?",
+    answer:
+      "Cirql intelligently categorizes your emails based on your preferences or our smart suggestions, keeping your inbox organized effortlessly.",
   },
   {
-    question : "Can I use the plugin on multiple devices?",
-    answer : "Yes, Cirql is compatible across all your devices, so you can manage your inbox seamlessly wherever you are."
+    question: "Can I use the plugin on multiple devices?",
+    answer:
+      "Yes, Cirql is compatible across all your devices, so you can manage your inbox seamlessly wherever you are.",
   },
   {
-    question : "Can I try the plugin for free?",
-    answer : "Yes, you can! Sign up for a free trial and experience the power of Cirql with no commitment."
+    question: "Can I try the plugin for free?",
+    answer:
+      "Yes, you can! Sign up for a free trial and experience the power of Cirql with no commitment.",
   },
-]
+];

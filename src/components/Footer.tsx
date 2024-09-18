@@ -30,7 +30,7 @@ const Footer = () => {
           <NavMenuItems isFooterMenu={true} />
         </nav>
       </div>
-      <Separator className="bg-[#d8d8d8] mt-14 h-[1.5px] " />
+      <Separator className="bg-[#d8d8d8] mt-10 h-[1.5px] " />
 
       <div className="w-full flex max-md:flex-col items-center justify-center gap-8 max-md:gap-6 pt-8 text-body">
         <div className="w-full flex items-center justify-center gap-8 max-sm:gap-5">

@@ -14,7 +14,7 @@ const Pricing = () => {
 
       <Tabs
         defaultValue="monthly"
-        className="w-[400px] mx-auto flex flex-col items-center justify-center mt-8 "
+        className="max-w-[400px] mx-auto flex flex-col items-center justify-center mt-8 "
       >
         <TabsList>
           <TabsTrigger value="monthly" onClick={() => setPricing("monthly")}>

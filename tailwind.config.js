@@ -55,8 +55,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
-      backgroundImage : {
-        'gradient-cover' : "url('/images/bg-gradient.png')"
+      backgroundImage: {
+        "gradient-cover": "url('/images/bg-gradient.png')",
+        "features-page-hero-bg": "url('/images/features-page-hero-bg.png')",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
@@ -80,8 +81,6 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-
-      
     },
   },
   plugins: [require("tailwindcss-animate")],
